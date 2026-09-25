@@ -1,0 +1,6 @@
+{
+  "name": "FinTeClub Sling",
+  "description": "Angry Birds style fintech arcade game for Ankara Yıldırım Beyazıt University FinTeClub with 10 stages and community portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Diamond / Rhombus Outer Glow / Border -->
+    <path
+        android:fillColor="#1500D2FF"
+        android:strokeColor="#00D2FF"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:pathData="M54,23 L85,54 L54,85 L23,54 Z" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0066FF"
+        android:strokeWidth="1.2"
+        android:pathData="M54,26 L82,54 L54,82 L26,54 Z" />
+
+    <!-- Candlestick 1 (Left Silver/Gray) -->
+    <path
+        android:fillColor="#A0B0C4"
+        android:pathData="M43,45 L47,45 L47,57 L43,57 Z" />
+    <path
+        android:strokeColor="#A0B0C4"
+        android:strokeWidth="1.2"
+        android:pathData="M45,41 L45,61" />
+
+    <!-- Candlestick 2 (Middle Blue) -->
+    <path
+        android:fillColor="#00A3FF"
+        android:pathData="M50,37 L55,37 L55,53 L50,53 Z" />
+    <path
+        android:strokeColor="#00A3FF"
+        android:strokeWidth="1.2"
+        android:pathData="M52.5,32 L52.5,58" />
+
+    <!-- Candlestick 3 (Right High Blue/Cyan) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M58,34 L63,34 L63,48 L58,48 Z" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.2"
+        android:pathData="M60.5,29 L60.5,53" />
+
+    <!-- Circuit traces connecting candlesticks -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0088FF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M35,54 L41,54 M65,46 L71,46 L74,49 M74,49 L79,49" />
+
+    <!-- Lower Circuit Nodes -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00D2FF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,65 L54,72 M44,65 L44,69 L39,74 M64,65 L64,69 L69,74" />
+
+    <!-- Circuit Terminals (small dots) -->
+    <path
+        android:fillColor="#00D2FF"
+        android:pathData="M54,72m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#00D2FF"
+        android:pathData="M39,74m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#00D2FF"
+        android:pathData="M69,74m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0" />
+
+    <!-- Stylized "FTC" / Slingshot emblem bar -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M35,62 L73,62" />
+
+</vector>
